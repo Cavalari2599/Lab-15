@@ -1,0 +1,98 @@
+[
+  {
+    "titulo": "Thriller",
+    "artista": "Michael Jackson",
+    "genero": "Pop",
+    "anio": 1982,
+    "sello": "Epic",
+    "pistas": 9,
+    "imagen": "thriller.png",
+    "slug": "thriller",
+    "resumen": "El album mas vendido de la historia.",
+    "descripcion": "Album de Michael Jackson que redefinio la musica pop de los anios 80 con exitos como Billie Jean, Beat It y el propio Thriller."
+  },
+  {
+    "titulo": "The Dark Side of the Moon",
+    "artista": "Pink Floyd",
+    "genero": "Rock progresivo",
+    "anio": 1973,
+    "sello": "Harvest",
+    "pistas": 10,
+    "imagen": "the-dark-side-of-the-moon.png",
+    "slug": "the-dark-side-of-the-moon",
+    "resumen": "Obra cumbre del rock progresivo y los discos conceptuales.",
+    "descripcion": "Disco conceptual de Pink Floyd sobre la presion, el tiempo y la locura; estuvo cientos de semanas en las listas de exitos."
+  },
+  {
+    "titulo": "Back in Black",
+    "artista": "AC/DC",
+    "genero": "Hard rock",
+    "anio": 1980,
+    "sello": "Atlantic",
+    "pistas": 10,
+    "imagen": "back-in-black.png",
+    "slug": "back-in-black",
+    "resumen": "El regreso de AC/DC tras la muerte de Bon Scott.",
+    "descripcion": "Album homenaje al cantante Bon Scott con Brian Johnson como nuevo vocalista; incluye himnos como Hells Bells y You Shook Me All Night Long."
+  },
+  {
+    "titulo": "Rumours",
+    "artista": "Fleetwood Mac",
+    "genero": "Rock",
+    "anio": 1977,
+    "sello": "Warner Bros.",
+    "pistas": 11,
+    "imagen": "rumours.png",
+    "slug": "rumours",
+    "resumen": "El disco de las rupturas dentro de la banda.",
+    "descripcion": "Grabado mientras los integrantes de Fleetwood Mac terminaban sus relaciones; uno de los albumes mas vendidos de todos los tiempos."
+  },
+  {
+    "titulo": "Nevermind",
+    "artista": "Nirvana",
+    "genero": "Grunge",
+    "anio": 1991,
+    "sello": "DGC",
+    "pistas": 12,
+    "imagen": "nevermind.png",
+    "slug": "nevermind",
+    "resumen": "El album que llevo el grunge al mundo entero.",
+    "descripcion": "Segundo disco de Nirvana; con Smells Like Teen Spirit puso el rock alternativo en lo mas alto y marco a toda una generacion."
+  },
+  {
+    "titulo": "Abbey Road",
+    "artista": "The Beatles",
+    "genero": "Rock",
+    "anio": 1969,
+    "sello": "Apple",
+    "pistas": 17,
+    "imagen": "abbey-road.png",
+    "slug": "abbey-road",
+    "resumen": "El ultimo album que grabaron juntos los Beatles.",
+    "descripcion": "Recordado por su famosa portada cruzando la calle y por el medley de la segunda cara; uno de los trabajos mas pulidos de la banda."
+  },
+  {
+    "titulo": "Kind of Blue",
+    "artista": "Miles Davis",
+    "genero": "Jazz",
+    "anio": 1959,
+    "sello": "Columbia",
+    "pistas": 5,
+    "imagen": "kind-of-blue.png",
+    "slug": "kind-of-blue",
+    "resumen": "El disco de jazz mas influyente de la historia.",
+    "descripcion": "Album de Miles Davis que popularizo el jazz modal; grabado casi sin ensayos previos junto a John Coltrane y Bill Evans."
+  },
+  {
+    "titulo": "The Chronic",
+    "artista": "Dr. Dre",
+    "genero": "Hip hop",
+    "anio": 1992,
+    "sello": "Death Row",
+    "pistas": 16,
+    "imagen": "the-chronic.png",
+    "slug": "the-chronic",
+    "resumen": "El disco que definio el sonido G-funk.",
+    "descripcion": "Debut en solitario de Dr. Dre que presento al mundo a Snoop Dogg y marco el rumbo del hip hop de la costa oeste."
+  }
+]
