@@ -1,0 +1,30 @@
+{
+  "name": "discostore-api",
+  "version": "1.0.0",
+  "description": "API REST del catalogo de albumes de DiscoStore con Node.js, Express, SQLite y Zod",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning index.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch index.js",
+    "images:download": "node data/downloadImages.js",
+    "db:create": "node --disable-warning=ExperimentalWarning data/createdb.js",
+    "setup": "node data/downloadImages.js && node --disable-warning=ExperimentalWarning data/createdb.js"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "express",
+    "sqlite",
+    "zod",
+    "musica",
+    "albumes",
+    "discostore"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1",
+    "zod": "^4.4.3"
+  }
+}

@@ -399,3 +399,8 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Lab 15 - generados localmente
+data/*.db
+data/*.db-journal
+.env
