@@ -62,8 +62,17 @@ codigos de estado
 
 cada album tiene estos campos: titulo, artista, genero, anio, sello, pistas, imagen, slug, resumen y descripcion. el slug se genera solo a partir del titulo. hay 8 albumes en la carga inicial, desde kind of blue (1959) hasta the chronic (1992) y nevermind (1991).
 
+pruebas automatizadas
+
+hay una suite de pruebas hecha con vitest y supertest que cubre un caso por cada operacion y codigo de estado (200, 201, 204, 400, 404 y 409). la suite siembra una base de datos limpia antes de correr, asi que no depende del estado previo. para correrla
+
+npm install
+npm test
+
+tambien esta npm run test:watch que se queda escuchando los cambios.
+
 como esta organizado
 
-el archivo index.js es el que levanta el servidor de express con las rutas. en la carpeta data esta el data.json con los datos, el schema.sql con la tabla, el createdb.js que crea y llena la base, el downloadImages.js que baja las portadas y el albumes.js que tiene las consultas a la base. en la carpeta routes/albumes esta un archivo por cada ruta. en utils estan los helpers para los errores y la funcion que genera el slug. y en public/imagenes estan las portadas.
+el archivo index.js solo carga el .env y levanta el servidor; la aplicacion de express con todas las rutas esta en app.js (separada para poder probarla con supertest). en la carpeta data esta el data.json con los datos, el schema.sql con la tabla, el seed.js que crea y llena la base, el createdb.js que llama al seed desde la terminal, el downloadImages.js que baja las portadas y el albumes.js que tiene las consultas a la base. en la carpeta routes/albumes esta un archivo por cada ruta. en utils estan los helpers para los errores y la funcion que genera el slug. en public/imagenes estan las portadas. y en test esta la suite de pruebas.
 
-las pruebas estan documentadas en el archivo PRUEBAS.md y las fuentes que consulte estan en REFERENCIAS.md
+las pruebas manuales estan documentadas en el archivo PRUEBAS.md, la suite automatizada en test/albumes.test.js y las fuentes que consulte estan en REFERENCIAS.md

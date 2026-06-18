@@ -39,3 +39,8 @@ https://en.wikipedia.org/api/rest_v1/
 tambien use curl para probar la api desde la terminal
 
 https://curl.se/
+
+para la suite de pruebas automatizadas use vitest y supertest
+
+https://vitest.dev/
+https://github.com/ladjs/supertest
